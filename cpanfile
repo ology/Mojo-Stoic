@@ -1,0 +1,11 @@
+requires 'Data::Dumper::Compact';
+requires 'File::Find::Rule';
+requires 'List::Util';
+requires 'Mojolicious';
+requires 'Mojolicious::Plugin::AdditionalValidationChecks';
+requires 'Mojolicious::Plugin::BrowserDetect';
+requires 'Mojolicious::Plugin::RemoteAddr';
+requires 'Set::Array';
+requires 'Test::Mojo::Session';
+requires 'Time::HiRes';
+requires 'Time::Piece';
