@@ -19,4 +19,4 @@ source ./bin/activate
 morbo app.pl --verbose --listen http://192.168.100.50:8080
 ```
 
-Then open your favorite browser and visit that URL and login.
+Then open your favorite browser, visit that URL and login.
