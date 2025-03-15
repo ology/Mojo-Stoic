@@ -4,7 +4,7 @@ Perl, Mojolicious, ChatGPT Stoic scholar app
 To install:
 
 ```shell
-# have a modern perl, then
+# have a modern perl, python, and sqlite3, then
 cpanm --installdeps .
 sqlite app.db < app.sql
 ```
