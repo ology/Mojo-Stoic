@@ -11,7 +11,7 @@ use Mojo::SQLite;
 use Time::Piece;
 
 use constant MAX_SEEN => 25;
-use constant THROTTLE => 60 * 2; # 2 minutes
+use constant THROTTLE => 30; # 
 
 helper is_demo => sub ($c) { # for use in the template
   my $user = $c->session('user');
