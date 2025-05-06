@@ -93,7 +93,6 @@ under sub ($c) {
 };
 
 get '/app' => sub ($c) {
-warn __PACKAGE__,' L',__LINE__,' ',,"HELLO??\n";
   my $action  = $c->param('action')  || '';  # user action like 'interp'
   my $seek    = $c->param('seek')    || '';  # concepts user is seeking
   my $comment = $c->param('comment') || 0;   # for interpretation
